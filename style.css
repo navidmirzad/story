@@ -12,3 +12,8 @@ body {
     padding: 1em;
     margin-bottom: 1em;
 }
+
+.selected {
+    background-color: green;
+  }
+  
