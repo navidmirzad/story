@@ -25,7 +25,7 @@ const scenes = [
       <p>Im getting kind of hungry...</p>
       <p>I should get something to eat</p>`,
     choices: ["Pizza", "Go home and cook dinner"],
-    nextScenes: [2, 3], // Indexes of next scenes based on choices
+    nextScenes: [2, 3],
   },
   {
     title: "On my way to get a Pizza",
@@ -38,7 +38,7 @@ const scenes = [
       "Eat a different Pizza today?",
       "Go home and cook dinner",
     ],
-    nextScenes: [3, 4, 4], // Indexes of next scenes based on choices
+    nextScenes: [3, 4, 4],
   },
   {
     title: "Home and cooking dinner",
@@ -47,7 +47,7 @@ const scenes = [
       <p></p>
       <p>Im out of milk NOO</p>`,
     choices: ["Order a pizza", "Starve yourself", "Go grocery shopping"],
-    nextScenes: [3, 4, 4], // Indexes of next scenes based on choices
+    nextScenes: [3, 4, 4],
   },
 ];
 
@@ -70,7 +70,7 @@ function showScene(scene) {
 
   const sceneElement = document.createElement("div");
   sceneElement.innerHTML = html;
-  document.querySelector("main").appendChild(sceneElement); // Append new scene to main
+  document.querySelector("main").appendChild(sceneElement);
 }
 
 function handleChoice(nextSceneIndex) {
