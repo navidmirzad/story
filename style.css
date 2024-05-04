@@ -1,19 +1,21 @@
 body {
-    background-color: orange;
+  background-color: #ab8c65;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+  font-family: "Roboto", sans-serif;
 }
 
 #header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .scene {
-    border: 2px solid black;
-    padding: 1em;
-    margin-bottom: 1em;
+  background-color: #8f9c5d;
+  border: 2px solid black;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
 .selected {
-    background-color: green;
-  }
-  
+  background-color: green;
+}
